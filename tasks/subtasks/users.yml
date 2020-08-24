@@ -16,13 +16,13 @@
   command: /usr/bin/chage -d -1 -E -1 -m -1 -M -1 -W -1 hosc02
 
 - name: Create "Commercial TriplePoint Account"
-    user:
+  user:
     name: tptadmin
     state: present
     comment: "Commercial TriplePoint Account"
     uid: 128854
     group: user66
-        shell: /bin/bash
+    shell: /bin/bash
     createhome: yes
     home: /home/tptadmin
     password: "{{ 'copCXL' | password_hash('sha512') }}"
