@@ -1,0 +1,8 @@
+---
+# tasks file for cxl_appl
+
+####---- Site specific
+
+- import_tasks: subtasks/groups.yml
+
+- import_tasks: subtasks/users.yml

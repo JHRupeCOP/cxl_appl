@@ -1,0 +1,14 @@
+---
+# CXL required Groups
+
+- name: CXL rroups
+  group:
+    name: "{{ item.groupname }}"
+    state: present
+    gid: "{{ item.groupid }}"
+  loop:
+    - { groupname: 'commit', groupid: '15879' }
+    - { groupname: 'tptprod', groupid: '220223' }
+    - { groupname: 'tpttest', groupid: '220224' }
+    - { groupname: 'tptdev', groupid: '220225' }
+    - { groupname: 'tptfunc', groupid: '220226' }
