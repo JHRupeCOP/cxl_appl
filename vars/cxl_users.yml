@@ -6,24 +6,34 @@ cxl_users:
     status: "present"
     gecos: "Michael Sen-Roy"
     uid: 121180
+    group: "users"
     groups: "user66"
     shell: "/bin/bash"
   kmarti:
     status: "present"
     gecos: "Keith Martin"
     uid: 122479
+    group: "users"
     groups: "user66"
     shell: "/bin/bash"
   hsuc:    
     status: "present"
     gecos: "Chang Hsu"
     uid: 116232
+    group: "users"
     groups: "user66"
     shell: "/bin/bash"
   jiap:
     status: "present"
     gecos: "Justin Jia (Puqing)"
     uid: 118115
+    group: "users"
     groups: "user66"
     shell: "/bin/bash"
-
+  hosc02:
+    status: "present"
+    gecos: "Commercial IT Admin"
+    uid: 122782
+    group: "commit"
+    groups: "tptprod,tpttest,tptdev,tptfunc"
+    shell: "/bin/bash"

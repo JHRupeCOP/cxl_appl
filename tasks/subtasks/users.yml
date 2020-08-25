@@ -9,7 +9,7 @@
     state: "{{ item.value.status }}"
     comment: "{{ item.value.gecos }}"
     uid: "{{ item.value.uid }}"
-    group: "user66"
+    group: "{{ item.value.group }}"
     groups: "{{ item.value.groups }}"
     shell: "{{ item.value.shell }}"
     create_home: "yes"
