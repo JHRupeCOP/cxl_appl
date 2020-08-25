@@ -21,7 +21,7 @@
     state: present
     comment: "Commercial TriplePoint Account"
     uid: 128854
-    group: user66
+    group: tptdev
     shell: /bin/bash
     createhome: yes
     home: /home/tptadmin
