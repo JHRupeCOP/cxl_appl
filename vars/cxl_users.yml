@@ -1,0 +1,29 @@
+---
+
+# Create CXL default users
+cxl_users:
+  senrokm:
+    status: "present"
+    gecos: "Michael Sen-Roy"
+    uid: 121180
+    groups: "user66"
+    shell: "/bin/bash"
+  kmarti:
+    status: "present"
+    gecos: "Keith Martin"
+    uid: 122479
+    groups: "user66"
+    shell: "/bin/bash"
+  hsuc:    
+    status: "present"
+    gecos: "Chang Hsu"
+    uid: 116232
+    groups: "user66"
+    shell: "/bin/bash"
+  jiap:
+    status: "present"
+    gecos: "Justin Jia (Puqing)"
+    uid: 118115
+    groups: "user66"
+    shell: "/bin/bash"
+
