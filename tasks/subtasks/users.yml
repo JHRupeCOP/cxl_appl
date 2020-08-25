@@ -1,5 +1,8 @@
 ---
 
+# Source variable file of users
+- include_vars: vars/cxl_users.yml
+
 - name: Creating CXL Users
   user:
     name: "{{ item.key }}"
