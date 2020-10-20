@@ -9,13 +9,6 @@ cxl_users:
     group: "users"
     groups: "user66"
     shell: "/bin/bash"
-  kmarti:
-    status: "present"
-    gecos: "Keith Martin"
-    uid: 122479
-    group: "users"
-    groups: "user66"
-    shell: "/bin/bash"
   hsuc:    
     status: "present"
     gecos: "Chang Hsu"
