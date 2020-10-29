@@ -1,0 +1,12 @@
+---
+# install required packages
+
+- name: install TriplePoint required Packages
+  yum:
+    name: "{{ package }}"
+    state: latest
+  vars:
+    packages:
+      - haveged
+      - jq
+      - sshpass
