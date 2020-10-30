@@ -3,7 +3,7 @@
 
 - name: install TriplePoint required Packages
   yum:
-    name: "{{ package }}"
+    name: "{{ packages }}"
     state: latest
   vars:
     packages:
