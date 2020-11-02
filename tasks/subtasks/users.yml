@@ -41,7 +41,7 @@
   user:
       name: hosc02
       state: present
-      comment: "HOSC02"
+      comment: "Commercial Reliability Monitoring and Tools
       uid: 122782
       group: commit
       groups: tptprod,tpttest,tptdev,tptfunc
