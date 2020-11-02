@@ -1,0 +1,22 @@
+---
+- name: Create apps directory
+  file:
+    path: /apps
+    owner: root
+    group: root
+    mode: '0755'
+
+- name: Create tpt mount point
+  file:
+    path: /apps/tpt
+    owner: tptadmin
+    group: tptdev
+    mode: '0775'
+
+- name: Mount /apps/tpt
+  mount:
+    fstype: nfs
+    name: /apps/tpt
+    opts: rw,bg,hard,intr,_netdev,timeo=14
+    src: bvlnafs1:/commercialtpt
+    state: mounted
