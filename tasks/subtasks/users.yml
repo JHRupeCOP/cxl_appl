@@ -49,5 +49,5 @@
       createhome: yes
       home: /home/hosc02
       password: "*K*"
-  -name: Remove password aging for "HOSC02"
-     command: /usr/bin/chage -d -1 -E -1 -m -1 -M -1 -W -1 hosc02
+- name: Remove password aging for "HOSC02"
+  command: /usr/bin/chage -d -1 -E -1 -m -1 -M -1 -W -1 hosc02
