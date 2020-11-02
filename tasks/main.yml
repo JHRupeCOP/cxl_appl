@@ -6,3 +6,4 @@
 - import_tasks: subtasks/groups.yml
 - import_tasks: subtasks/users.yml
 - import_tasks: subtasks/packages.yml
+- import_tasks: subtasks/files_dirs.yml

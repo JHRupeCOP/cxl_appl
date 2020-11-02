@@ -23,10 +23,3 @@ cxl_users:
     group: "users"
     groups: "user66"
     shell: "/bin/bash"
-  hosc02:
-    status: "present"
-    gecos: "Commercial IT Admin"
-    uid: 122782
-    group: "commit"
-    groups: "tptprod,tpttest,tptdev,tptfunc"
-    shell: "/bin/bash"
