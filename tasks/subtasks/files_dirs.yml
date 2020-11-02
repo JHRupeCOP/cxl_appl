@@ -5,6 +5,7 @@
     owner: root
     group: root
     mode: '0755'
+    state: directory
 
 - name: Create tpt mount point
   file:
@@ -12,6 +13,7 @@
     owner: tptadmin
     group: tptdev
     mode: '0775'
+    state: directory
 
 - name: Mount /apps/tpt
   mount:
